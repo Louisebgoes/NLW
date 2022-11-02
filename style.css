@@ -86,8 +86,8 @@ header {
   color: #e1e1e6;
 }
 
-#cards {
+#app #cards {
   display: flex;
-  flex-direction: row;
-  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
