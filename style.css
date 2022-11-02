@@ -35,6 +35,10 @@ header {
 
 #cards {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .card {
@@ -90,10 +94,4 @@ header {
   font-size: 36px;
   line-height: 125%;
   color: #e1e1e6;
-}
-
-#app #cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
