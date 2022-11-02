@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
-ul{
+}
+ul {
   list-style: none;
 }
 
-body{
+body {
   background-color: #121214;
   background-image: url(./assets/bg.svg);
   background-position-x: center;
@@ -15,11 +15,11 @@ body{
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #app {
-   width: fit-content;
+  width: fit-content;
   margin-top: 52px auto;
 }
 
@@ -30,7 +30,7 @@ header {
 .card {
   border: 1px solid red;
   padding: 32px 23px;
-  text-aling: center;
+  text-align: center;
   background: #1d1c19;
   border-bottom: 2px solid #f7dd43;
   border-radius: 6px;
@@ -50,14 +50,13 @@ header {
   margin-inline: auto;
   margin-bottom: 53px;
 
-  color: #f7dd43
+  color: #f7dd43;
 }
 
-.card h2 span{
+.card h2 span {
   color: #e1e1e6;
   font-size: 14px;
   text-transform: uppercase;
-
 }
 
 .card ul {
@@ -65,7 +64,6 @@ header {
   flex-direction: column;
   gap: 24px;
   width: 270px;
-    
 }
 .card ul li {
   display: flex;
@@ -76,13 +74,11 @@ header {
 .card ul li + li {
   padding-top: 24px;
   border-top: 1px solid #323238;
-  
 }
 
-.card ul li strong{
+.card ul li strong {
   font-weight: 900;
   font-size: 36px;
   line-height: 125%;
   color: #e1e1e6;
-
 }
