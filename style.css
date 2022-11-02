@@ -33,6 +33,10 @@ header {
   align-items: center;
 }
 
+#cards {
+  display: flex;
+}
+
 .card {
   padding: 32px 23px;
   text-align: center;
